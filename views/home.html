@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -13,20 +13,22 @@
     <nav class="bg-white shadow text-white gradient-iron">
       <div class="container mx-auto px-4">
         <div class="flex justify-between items-center py-4">
-          <div class="text-xl font-bold">My Portfolio</div>
+          <div class="text-xl font-bold">
+            My Portfolio | Aybike Celebi Visser
+          </div>
           <ul class="flex space-x-4">
             <li>
               <a href="/blog" class="hover:text-blue-500">Blog</a>
             </li>
             <li>
               <a
-                href="https://www.linkedin.com/school/ironhack"
+                href="https://www.linkedin.com/in/aybike-celebi-visser-6b9003106/"
                 class="hover:text-blue-500"
                 >LinkedIn</a
               >
             </li>
             <li>
-              <a href="https://github.com" class="hover:text-blue-500"
+              <a href="https://github.com/AybikeCV" class="hover:text-blue-500"
                 >GitHub</a
               >
             </li>
@@ -41,24 +43,19 @@
         <div class="mt-10 flex flex-col md:flex-row items-center">
           <img
             src="/profile.png"
-            alt="Your Name"
+            alt="Aybike Celebi Visser"
             class="rounded-full w-48 h-48 md:mr-8"
           />
           <div>
             <h2 class="text-2xl font-bold mb-4">About Me</h2>
             <p class="text-gray-600">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              lacinia odio vitae vestibulum. Donec in efficitur leo. Vestibulum
-              nec magna ac dui tempus vestibulum. Curabitur facilisis, nulla vel
-              venenatis auctor, leo magna sodales felis, quis malesuada nibh
-              odio ut velit. Proin pharetra luctus enim, sit amet cursus quam
-              semper a. Mauris eu ante vitae eros faucibus aliquam. Sed ornare
-              gravida arcu, id placerat risus lacinia at. Integer accumsan
-              ligula ante, non feugiat neque ullamcorper vel. Nullam a erat nec
-              nisl condimentum fermentum at sed massa. Fusce non risus eu arcu
-              placerat porttitor. Mauris fermentum velit vel congue luctus. Sed
-              cursus orci at porta ornare. Donec sit amet aliquet tellus, a
-              ornare justo. Donec tempus tincidunt leo id tincidunt.
+              Hey!!! I am Aybike. I'm motivated and adaptable professional with
+              a strong background in customer-focused environments and a growing
+              passion for technology. Currently I'm studying web development,
+              and I'm building skills in modern web technologies and continue
+              expanding my knowledge through hands-on learing. I enjoy problem
+              solving, learning new tools and creating user-friendly
+              experiences.
             </p>
           </div>
         </div>
@@ -66,7 +63,9 @@
 
       <!-- My Projects Section -->
       <section class="mt-10">
-        <h2 class="text-2xl font-bold">My Projects</h2>
+        <h2 class="text-2xl font-bold">
+          My Projects // Hopefully one day, soon :D
+        </h2>
         <div
           id="projectsContainer"
           class="mt-4 grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
@@ -112,7 +111,7 @@
                               ${project.techStack
                                 .map(
                                   (tech) =>
-                                    `<li class="inline-block text-white px-2 py-1 rounded mr-2 mt-2 tag">${tech}</li>`
+                                    `<li class="inline-block text-white px-2 py-1 rounded mr-2 mt-2 tag">${tech}</li>`,
                                 )
                                 .join("")}
                           </ul>
